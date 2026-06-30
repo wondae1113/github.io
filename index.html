@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김민수 | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#content" class="skip-link">본문으로 건너뛰기</a>
+
+  <header class="mobile-header">
+    <div class="mobile-brand">
+      <img src="P.png" alt="" class="mobile-avatar" width="36" height="36">
+      <span class="mobile-name">김민수</span>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="메뉴 열기">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-nav-overlay" id="mobileNav">
+    <a href="#about">지원 동기</a>
+    <a href="#traits">성격</a>
+    <a href="#motto">생활신조</a>
+    <a href="#experience">경험</a>
+    <a href="#goals">입사 후 포부</a>
+  </nav>
+
+  <div class="page">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="profile-sidebar">
+          <div class="profile-wrapper">
+            <img src="P.png" alt="김민수 프로필 사진" width="128" height="128">
+          </div>
+        </div>
+        <h1 class="name">김민수</h1>
+        <h2 class="role">Software Developer</h2>
+        <p class="tagline">사용자에게 가치 있는 서비스를 만드는 개발자입니다.</p>
+
+        <nav class="side-nav" aria-label="섹션 네비게이션">
+          <ul>
+            <li><a href="#about" data-section="about"><span class="nav-num">01.</span> 지원 동기</a></li>
+            <li><a href="#traits" data-section="traits"><span class="nav-num">02.</span> 성격</a></li>
+            <li><a href="#motto" data-section="motto"><span class="nav-num">03.</span> 생활신조</a></li>
+            <li><a href="#experience" data-section="experience"><span class="nav-num">04.</span> 경험</a></li>
+            <li><a href="#goals" data-section="goals"><span class="nav-num">05.</span> 입사 후 포부</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <ul class="social" aria-label="소셜 링크">
+        <li>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:hello@example.com" aria-label="이메일">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="main" id="content">
+      <div class="main-inner">
+
+        <section id="about">
+          <h2 class="section-heading"><span class="num">01.</span> 지원 동기 및 포부</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                안녕하세요. 소프트웨어 개발자로서 사용자에게 가치 있는 서비스를 제공하고 싶은
+                <span class="highlight">김민수</span>입니다.
+              </p>
+              <p>
+                대학에서 컴퓨터공학을 전공하며 프로그래밍의 기초를 다졌고, 졸업 후 2년간 스타트업에서
+                웹 개발 업무를 담당했습니다. 빠르게 변화하는 IT 업계에서 새로운 기술을 학습하고
+                적용하는 것에 큰 흥미를 느끼며, 특히
+                <span class="highlight">사용자 경험을 개선하는 기술적 솔루션</span>을 찾는 것을 좋아합니다.
+              </p>
+              <p>
+                혁신적인 기술력과 우수한 개발 문화를 갖춘 환경에서 저의 기술적 역량을 더욱 발전시키고,
+                의미 있는 프로젝트에 기여하고 싶습니다.
+              </p>
+            </div>
+            <div class="profile-about">
+              <div class="profile-wrapper profile-lg">
+                <img src="P.png" alt="김민수 프로필 사진" width="200" height="200">
+              </div>
+            </div>
+          </div>
+          <ul class="tech-tags tech-tags--spaced">
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Node.js</li>
+            <li>REST API</li>
+          </ul>
+        </section>
+
+        <section id="traits">
+          <h2 class="section-heading"><span class="num">02.</span> 성격의 장단점</h2>
+
+          <div class="traits-block">
+            <p class="traits-label">— 장점</p>
+            <div class="trait-item">
+              <h3>꾸준한 학습 의지</h3>
+              <p>새로운 기술 트렌드에 관심이 많아 개인 시간을 활용해 온라인 강의를 수강하고 사이드 프로젝트를 진행합니다.</p>
+            </div>
+            <div class="trait-item">
+              <h3>협업과 소통</h3>
+              <p>팀 프로젝트에서 다른 개발자, 디자이너, 기획자와 원활히 소통하며 공동의 목표를 달성하는 것을 중요하게 생각합니다.</p>
+            </div>
+            <div class="trait-item">
+              <h3>문제 해결 지향적</h3>
+              <p>복잡한 버그나 기술적 이슈에 직면했을 때 포기하지 않고 다양한 접근 방법을 시도하여 해결책을 찾습니다.</p>
+            </div>
+          </div>
+
+          <div class="traits-block">
+            <p class="traits-label">— 단점</p>
+            <div class="trait-item">
+              <h3>완벽주의 성향</h3>
+              <p>때로는 코드의 완성도에 지나치게 집착하여 일정에 영향을 줄 수 있습니다. 이를 개선하기 위해 우선순위를 명확히 하고 적정 수준의 완성도를 목표로 하는 연습을 하고 있습니다.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="motto">
+          <h2 class="section-heading"><span class="num">03.</span> 생활신조</h2>
+          <p class="motto-quote" id="mottoText"><span class="cursor"></span></p>
+          <p>
+            개발자로서 항상 사용자의 관점에서 생각하려 노력합니다. 아무리 기술적으로 뛰어난 코드라도
+            실제 사용자에게 도움이 되지 않는다면 의미가 없다고 생각합니다.
+          </p>
+          <p>
+            사용자가 더 편리하고 효율적으로 업무를 처리할 수 있도록 돕는 것이
+            <span class="highlight">개발자의 사명</span>이라고 믿습니다.
+          </p>
+        </section>
+
+        <section id="experience">
+          <h2 class="section-heading"><span class="num">04.</span> 학창시절 경험 및 특이사항</h2>
+          <div class="exp-list">
+            <div class="exp-item">
+              <span class="exp-date">대학 3학년</span>
+              <div>
+                <h3 class="exp-title">
+                  <span class="exp-company">해커톤 우수상</span> · 지역 상권 활성화 앱
+                </h3>
+                <p class="exp-desc">
+                  교내 해커톤에서 팀장을 맡아 5명의 팀원과 함께 48시간 동안 React Native로
+                  모바일 앱을 완성하여 우수상을 수상했습니다. 백엔드 API 설계부터 프론트엔드
+                  구현까지 전 과정에 참여하며 풀스택 개발 경험을 쌓았고, 짧은 시간 내에
+                  팀원들의 역량을 파악하고 업무를 효율적으로 분배하는 리더십을 발휘했습니다.
+                </p>
+                <ul class="tech-tags">
+                  <li>React Native</li>
+                  <li>REST API</li>
+                  <li>팀 리더십</li>
+                  <li>풀스택</li>
+                </ul>
+              </div>
+            </div>
+            <div class="exp-item">
+              <span class="exp-date">대학 4년간</span>
+              <div>
+                <h3 class="exp-title">
+                  <span class="exp-company">학회 멘토링</span> · 컴퓨터공학과 학회
+                </h3>
+                <p class="exp-desc">
+                  컴퓨터공학과 학회에서 활동하며 후배들에게 프로그래밍을 가르치는 멘토링을
+                  진행했습니다. 복잡한 개념을 쉽게 설명하는 능력을 기를 수 있었고, 이는 현재
+                  팀 내에서 코드 리뷰와 기술 공유를 할 때 큰 도움이 되고 있습니다.
+                </p>
+                <ul class="tech-tags">
+                  <li>멘토링</li>
+                  <li>코드 리뷰</li>
+                  <li>기술 공유</li>
+                </ul>
+              </div>
+            </div>
+            <div class="exp-item">
+              <span class="exp-date">졸업 후 2년</span>
+              <div>
+                <h3 class="exp-title">
+                  <span class="exp-company">웹 개발자</span> · 스타트업
+                </h3>
+                <p class="exp-desc">
+                  스타트업에서 웹 개발 업무를 담당하며 빠르게 변화하는 환경 속에서
+                  새로운 기술을 학습하고 적용했습니다. 사용자 경험 개선을 위한
+                  기술적 솔루션을 찾고 구현하는 데 집중했습니다.
+                </p>
+                <ul class="tech-tags">
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>웹 개발</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="goals">
+          <h2 class="section-heading"><span class="num">05.</span> 입사 후 포부</h2>
+          <div class="exp-list">
+            <div class="goal-item">
+              <span class="goal-phase">단기</span>
+              <div>
+                <h3 class="goal-title">빠른 적응과 성실한 수행</h3>
+                <p class="goal-desc">
+                  입사 후 먼저 개발 문화와 코딩 컨벤션에 빠르게 적응하여 팀의 일원으로서
+                  역할을 다하겠습니다. 맡은 업무를 성실히 수행하면서 비즈니스 도메인에 대한
+                  이해도를 높이고, 기존 팀원들과의 협업을 통해 개발 실력을 향상시키겠습니다.
+                </p>
+              </div>
+            </div>
+            <div class="goal-item">
+              <span class="goal-phase">중장기</span>
+              <div>
+                <h3 class="goal-title">기술 리더로의 성장</h3>
+                <p class="goal-desc">
+                  기술 리더로 성장하여 주니어 개발자들을 멘토링하고, 새로운 기술 도입과
+                  개발 프로세스 개선에 기여하겠습니다. 클라우드 기술과 마이크로서비스
+                  아키텍처 전문성을 쌓아 서비스의 확장성과 안정성 향상에 기여하겠습니다.
+                </p>
+                <ul class="tech-tags">
+                  <li>Cloud</li>
+                  <li>Microservices</li>
+                  <li>멘토링</li>
+                </ul>
+              </div>
+            </div>
+            <div class="goal-item">
+              <span class="goal-phase">궁극</span>
+              <div>
+                <h3 class="goal-title">가치 있는 서비스 개발</h3>
+                <p class="goal-desc">
+                  함께 성장하여 IT 업계에서 인정받는 개발자가 되고, 사용자에게 진정한 가치를
+                  제공하는 혁신적인 서비스 개발에 핵심적인 역할을 담당하고 싶습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="main-footer">
+          <p>HTML, CSS, JavaScript로 제작된 자기소개 페이지입니다.</p>
+          <p>김민수 · Software Developer</p>
+        </footer>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
